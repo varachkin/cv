@@ -93,6 +93,7 @@ hr {
 
 .info__contact-block img {
     margin: 5px 15px 5px 7px;
+    width: 30px;
 }
 
 .info__contact-block a, .info__contact-block span {
@@ -109,13 +110,17 @@ hr {
     cursor: pointer;
 }
 
+.main {
+    padding-bottom: 20px;
+}
+
 .title-block {
     text-align: end;
 }
 
 .description {
     text-align: justify;
-    font-size: 26px;
+    font-size: 18px;
     color: #a7a7a7;
     transition: 0.2s;
 }
@@ -137,7 +142,7 @@ hr {
 
 ul {
     margin: 0;
-    padding: 15px;
+    padding: 5px 20px;
 }
 
 ul li > div {
@@ -192,7 +197,7 @@ ul li:hover {
     display: inline-block;
     padding: 5px 20px 5px 75px;
     margin: 20px 0;
-    font-size: 34px;
+    font-size: 28px;
     min-width: 60%;
 }
 
@@ -258,5 +263,14 @@ ul li:hover {
 }
 
 .footer {
-    
+    height: 120px;
+    background: linear-gradient(90deg, rgba(18, 18, 18, 0.01), #aa7804, rgba(18, 18, 18, 0.01));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img {
+    height: 60px;
+    margin: 0 40px;
 }
